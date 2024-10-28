@@ -9,7 +9,7 @@ num2 = Number(prompt('Enter second #'));
 if (oper == '+') {
     answer = num1 + num2;
 }
-else if (oper== '-') {
+else if (oper == '-') {
     answer = num1 - num2;
 }
 else if (oper == '*') {
