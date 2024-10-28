@@ -16,7 +16,7 @@ else if (oper == '*') {
     answer = num1 * num2;
 }
 else if (oper == '/'){
-    answer = num1 / num;
+    answer = num1 / num2;
 }
 else  {
     answer = oper + " is NOT a valid operator choice!";
