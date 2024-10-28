@@ -15,7 +15,7 @@ else if (operator == '-') {
 else if (operator == '*') {
     answer = number1 * number2;
 }
-else if {
+else if (operator == '/'){
     answer = number1 / number2;
 }
 else  {
