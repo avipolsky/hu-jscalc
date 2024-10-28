@@ -2,23 +2,23 @@
 
 let num1, num2, oper, answer;
 
-num1 = Number(prompt('Enter first #'))
-oper = prompt('Enter operator (+, -, * ,/ ): ')
-num2 = Number(prompt('Enter second #'))
+num1 = Number(prompt('Enter first #'));
+oper = prompt('Enter operator (+, -, * ,/ ): ');
+num2 = Number(prompt('Enter second #'));
 
-if (operator == '+') {
-    answer = number1 + number2;
+if (oper == '+') {
+    answer = num1 + num2;
 }
-else if (operator == '-') {
-    answer = number1 - number2;
+else if (oper== '-') {
+    answer = num1 - num2;
 }
-else if (operator == '*') {
-    answer = number1 * number2;
+else if (oper == '*') {
+    answer = num1 * num2;
 }
-else if (operator == '/'){
-    answer = number1 / number2;
+else if (oper == '/'){
+    answer = num1 / num;
 }
 else  {
-    answer = oper + " is NOT a valid choice!";
-}
-alert(answer)
+    answer = oper + " is NOT a valid operator choice!";
+};
+alert(answer);
